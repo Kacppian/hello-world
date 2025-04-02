@@ -1,24 +1,19 @@
-import "./App.css";
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello World</h1>
       </header>
+      <main>
+        <p>This is a basic landing page for a shoe brand.</p>
+      </main>
     </div>
   );
 }
 
 export default App;
+      
